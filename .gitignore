@@ -1,15 +1,89 @@
+# ========================
 # Godot 4+ specific ignores
+# ========================
+
+# Godot project folder (contains editor settings, cache)
 .godot/
 
-# Godot-specific ignores
+# Godot imported assets folder (auto-generated)
 .import/
+
+# Godot export configs (local, usually)
 export.cfg
 export_presets.cfg
 
-# Imported translations (automatically generated from CSV files)
+# Godot generated translation files
 *.translation
 
-# Mono-specific ignores
+
+# ======================
+# Mono / C# ignores
+# ======================
+
+# Mono project cache and build folders
 .mono/
-data_*/
+
+# Standard C# build folders
+bin/
+obj/
+
+# Crash reports from Mono runtime
 mono_crash.*.json
+
+# Godot data folders related to Mono
+data_*/
+
+# ======================
+# IDE / Editor configs
+# ======================
+
+# Visual Studio files
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+*.pidb
+*.booproj
+*.svd
+*.vsp
+*.vs/
+*.ncb
+*.sdf
+*.cachefile
+
+# Rider IDE files
+.idea/
+*.sln.iml
+
+# VS Code workspace settings
+.vscode/
+
+# ======================
+# OS / System files
+# ======================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ======================
+# Temporary files
+# ======================
+
+*.tmp
+*.temp
+*.log
+
+# ======================
+# Others
+# ======================
+
+# Ignore JetBrains Rider caches
+.idea/
+
+# Ignore Godot crash logs if any
+*.dmp
