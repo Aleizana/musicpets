@@ -7,6 +7,8 @@
 
 # Godot imported assets folder (auto-generated)
 .import/
+*.import
+*.uid
 
 # Godot export configs (local, usually)
 export.cfg
